@@ -1,0 +1,9 @@
+# Ignorer l'environnement virtuel uv
+.venv/
+
+# Ignorer les données lourdes
+data/
+
+# Ignorer les fichiers temporaires Python ou Jupyter
+__pycache__/
+.ipynb_checkpoints/
