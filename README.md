@@ -33,6 +33,12 @@ Si vous souhaitez générer les données vous-même ou modifier les paramètres 
 3.  Exécutez le script principal (`data_generation.m`). Ce script utilise les matrices de formes stockées dans `matrices_shapes.mat`.
 4.  Placez les fichiers générés dans un dossier nommé `data/` à la racine du projet Python.
 
+### Prérequis MATLAB
+Pour exécuter le script de génération de données, vous aurez besoin de :
+* **MATLAB** (version R2021a ou supérieure recommandée)
+* **Signal Processing Toolbox** (Module officiel MATLAB)
+* **k-Wave Toolbox** (Module open-source). [Télécharger k-Wave ici](http://www.k-wave.org/download.php) et ajoutez le dossier à votre chemin (*Path*) MATLAB.
+
 ## 📁 Structure du projet
 
     .
@@ -53,12 +59,6 @@ Si vous souhaitez générer les données vous-même ou modifier les paramètres 
 3.  En haut à droite, cliquez sur **"Sélectionner le noyau"** (Select Kernel).
 4.  Choisissez **"Environnements Python..."** puis sélectionnez l'environnement situé dans `.venv`.
 5.  Choisissez le fichier de source pour l'apprentissage dans `data/`
-
-### Prérequis MATLAB
-Pour exécuter le script de génération de données, vous aurez besoin de :
-* **MATLAB** (version R2021a ou supérieure recommandée)
-* **Signal Processing Toolbox** (Module officiel MATLAB)
-* **k-Wave Toolbox** (Module open-source). [Télécharger k-Wave ici](http://www.k-wave.org/download.php) et ajoutez le dossier à votre chemin (*Path*) MATLAB.
 
 ---
 *Projet à destination des étudiants des projets Cassiopée 41 et 109 session 2026 de Télécom SudParis.*
